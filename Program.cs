@@ -1,18 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace _10kam2
+namespace _20._09._21
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Въведете десетично число");
+            Console.WriteLine("Въведете 10ично число: ");
             int chislo = int.Parse(Console.ReadLine());
-            string chislo2 = Convert.ToString(chislo, 2);
-            Console.WriteLine("10ichno: " + chislo);
-            Console.WriteLine("2ichno: " + chislo2);
-            string chislo16 = Convert.ToString(chislo, 16);
-            Console.WriteLine("16isetichno: " + chislo16);
+            string dvuichno = Convert.ToString(chislo,2);
+            Console.WriteLine("Двуично число: {0}", dvuichno);
         }
     }
 }
